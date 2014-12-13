@@ -1,0 +1,783 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"action",
+				"actionMethodName"
+			],
+			[
+				"contro",
+				"controllerFileName"
+			],
+			[
+				"getCont",
+				"getControllerFileName"
+			],
+			[
+				"default",
+				"defaultAction"
+			],
+			[
+				"getContr",
+				"getControllerClassName"
+			],
+			[
+				"s",
+				"switch	switch …"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/views/layout.blade.php",
+			"settings":
+			{
+				"buffer_size": 2550,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/fidestyle.css",
+			"settings":
+			{
+				"buffer_size": 126,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Fide/Entities/Candidate.php",
+			"settings":
+			{
+				"buffer_size": 96,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Fide/Entities/Category.php",
+			"settings":
+			{
+				"buffer_size": 95,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/database/seeds/CategoryTableSeeder.php",
+			"settings":
+			{
+				"buffer_size": 446,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/database/seeds/CandidateTableSeeder.php",
+			"settings":
+			{
+				"buffer_size": 794,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bootstrap/start.php",
+			"settings":
+			{
+				"buffer_size": 2325,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "composer.json",
+			"settings":
+			{
+				"buffer_size": 829,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/routes.php",
+			"settings":
+			{
+				"buffer_size": 463,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/HomeController.php",
+			"settings":
+			{
+				"buffer_size": 580,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/home.blade.php",
+			"settings":
+			{
+				"buffer_size": 1821,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 179.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"installa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 639.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/rafael/htdocs/fide",
+		"/home/rafael/htdocs/fide/app",
+		"/home/rafael/htdocs/fide/app/Fide",
+		"/home/rafael/htdocs/fide/app/Fide/Entities",
+		"/home/rafael/htdocs/fide/app/database",
+		"/home/rafael/htdocs/fide/app/database/seeds",
+		"/home/rafael/htdocs/fide/bootstrap",
+		"/home/rafael/htdocs/fide/public",
+		"/home/rafael/htdocs/fide/public/css",
+		"/home/rafael/htdocs/fide/vendor"
+	],
+	"file_history":
+	[
+		"/etc/apache2/sites-available/pruebavel.local.conf",
+		"/home/rafael/htdocs/fide/app/Fide/Entities/User.php",
+		"/media/TI30878200C/Users/Rafael/Dropbox/tablacomparativa framework vs csm.txt",
+		"/media/TI30878200C/Users/Rafael/Dropbox/Cosas de curriculum/to add.txt",
+		"/home/rafael/htdocs/fide/public/css",
+		"/home/rafael/htdocs/fide/app/database/seeds/CandidateTableSeeder.php",
+		"/home/rafael/htdocs/fide/composer.json",
+		"/home/rafael/htdocs/fide/app/database/seeds/DatabaseSeeder.php",
+		"/home/rafael/htdocs/fide/app/database/migrations/2014_12_11_130218_create_categories_table.php",
+		"/home/rafael/htdocs/fide/app/database/seeds/CategoryTableSeeder.php",
+		"/home/rafael/htdocs/fide/app/database/migrations/2014_12_11_120227_create_users_table.php",
+		"/home/rafael/htdocs/fide/app/database/migrations/2014_12_11_130714_create_candidates_table.php",
+		"/home/rafael/htdocs/fide/app/views/hello.php",
+		"/home/rafael/htdocs/fide/app/models/Peter.php",
+		"/home/rafael/htdocs/phpframework/readme.md",
+		"/home/rafael/htdocs/phpframework/.gitignore",
+		"/home/rafael/.composer/composer.json",
+		"/home/rafael/htdocs/phpframework/library/Request.php",
+		"/home/rafael/.composer/vendor/laravel/composer.json",
+		"/home/rafael/htdocs/phpframework/phpframework.sublime-project",
+		"/home/rafael/htdocs/phpframework/config.php",
+		"/home/rafael/htdocs/phpframework/helpers.php",
+		"/home/rafael/htdocs/phpframework/views/contact.tpl.php",
+		"/home/rafael/htdocs/phpframework/views/home.tpl.php",
+		"/home/rafael/htdocs/phpframework/index.php",
+		"/home/rafael/htdocs/phpframework/library/Inflector.php",
+		"/home/rafael/htdocs/phpframework/controllers/HomeController.php",
+		"/home/rafael/htdocs/phpframework/controllers/ContactosController.php",
+		"/home/rafael/htdocs/phpframework/logs.txt",
+		"/home/rafael/htdocs/phpframework/library/Response.php",
+		"/home/rafael/htdocs/phpframework/library/View.php",
+		"/media/TI30878200C/Users/Rafael/Datos de programa/Sublime Text 3/Local/Session.sublime_session",
+		"/media/TI30878200C/Users/Rafael/Datos de programa/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/media/TI30878200C/Users/Rafael/Datos de programa/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/home/rafael/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/rafael/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/rafael/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/rafael/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/media/TI30878200C/Users/Rafael/Dropbox/Cosas/Cuentas Barcklays.txt",
+		"/etc/default/grub",
+		"/media/TI30878200C/Users/Rafael/Dropbox/dfSDAF/rafa/index.php",
+		"/home/rafael/htdocs/phpframework/views/home.php",
+		"/etc/apache2/sites-available/phpframework.local.conf",
+		"/home/rafael/htdocs/phpframework/controllers/contactController.php",
+		"/home/rafael/htdocs/phpframework/views/contact.php",
+		"/home/rafael/htdocs/phpframework/.htaccess",
+		"/home/rafael/htdocs/phpframework/controllers/homeController.php",
+		"/home/rafael/htdocs/phpframework/controllers/contact.php",
+		"/tmp/fz3temp-1/wp-config 3.php",
+		"/tmp/fz3temp-1/wp-config 2.php",
+		"/tmp/fz3temp-1/wp-config.php",
+		"/home/rafael/htdocs/mejorandogit-master/index.html",
+		"/home/rafael/htdocs/phpframework/controllers/home.php",
+		"/home/rafael/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/rafael/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/rafael/htdocs/phpframework/view.php",
+		"/home/rafael/Documents/Clase 1 de marketing",
+		"/home/rafael/htdocs/phpframework/peter.css",
+		"/home/rafael/htdocs/phpframework/peter.js",
+		"/home/rafael/htdocs/phpframework/peter.json",
+		"/home/rafael/.config/sublime-text-3/Packages/Phpcs/phpcs.sublime-settings",
+		"/home/rafael/.config/sublime-text-3/Packages/Phpcs/Default (Linux).sublime-keymap",
+		"/tmp/fz3temp-1/send.php",
+		"/tmp/fz3temp-1/newsletter.php",
+		"/home/rafael/Documents/paqutetitos.txt",
+		"/home/rafael/Documents/- Organización: Planificacion antes de empezar",
+		"/home/rafael/htdocs/cc/index.php",
+		"/tmp/fz3temp-1/index.html",
+		"/home/rafael/Downloads/index.php",
+		"/media/rafael/1024/Mejorandola Cursos/Servers y Devops/Clase 1/notas.txt",
+		"/tmp/fz3temp-1/skel.css",
+		"/tmp/fz3temp-1/style.css",
+		"/tmp/fz3temp-1/style-wide.css",
+		"/tmp/fz3temp-1/init.js",
+		"/tmp/fz3temp-1/flaticon.css",
+		"/tmp/fz3temp-1/flaticon.html",
+		"/tmp/fz3temp-1/flaticon 2.css",
+		"/tmp/fz3temp-1/font-awesome.min.css",
+		"/home/rafael/htdocs/snazzy/css/font-awesome.min.css",
+		"/home/rafael/htdocs/snazzy/css/style.css",
+		"/home/rafael/htdocs/snazzy/index.html",
+		"/home/rafael/htdocs/snazzy/send.php",
+		"/home/rafael/Downloads/send.php",
+		"/home/rafael/Downloads/send (1).php",
+		"/home/rafael/htdocs/snazzy/sass/style.scss",
+		"/etc/hosts",
+		"/etc/apache2/sites-available/example.com.conf",
+		"/etc/apache2/sites-enabled/000-default.conf",
+		"/etc/apache2/sites-available/000-default.conf",
+		"/etc/apache2/apache2.conf",
+		"/etc/apache2/sites-available/default-ssl.conf",
+		"/etc/apache2/sites-available/example.com",
+		"/etc/apache2/sites-available/example.conf"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/home/rafael/htdocs/snazzy"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"fide",
+			"css",
+			"url",
+			"CandidateTableSeeder",
+			"vars",
+			"getVars",
+			"down",
+			"selection",
+			"click",
+			"caret",
+			"down",
+			"pieces",
+			"funcname",
+			"public",
+			"enable",
+			"change",
+			"save",
+			"email",
+			"sna",
+			"a {",
+			"container",
+			":HOVER",
+			"a {",
+			"a.",
+			".icon",
+			"glyph-icon flaticon-",
+			"awesome",
+			"awesom",
+			"fa-",
+			".flaticon",
+			"@font-face{font-family:'FontAwesome",
+			"submi",
+			"width: 100%",
+			"submi",
+			"input",
+			"class",
+			"header",
+			"footer",
+			"major",
+			"footer",
+			"form",
+			".css",
+			"ServerAdmin",
+			"phpframe"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"pruebavel",
+			"glyph-icon icon-",
+			".icon"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/views/layout.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2550,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								553,
+								553
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "public/css/fidestyle.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								126,
+								126
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Fide/Entities/Candidate.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 96,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Fide/Entities/Category.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 95,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								30,
+								30
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/database/seeds/CategoryTableSeeder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/database/seeds/CandidateTableSeeder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 794,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								264,
+								264
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "bootstrap/start.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2325,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								932,
+								932
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "composer.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 829,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								400,
+								400
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/routes.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								463,
+								463
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/controllers/HomeController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 580,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								570,
+								570
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/views/home.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1821,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1821,
+								1821
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "fide.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 469.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/htdocs/pruebavel/pruebavel.sublime-project"
+			]
+		],
+		"width": 356.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 344.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
