@@ -5,11 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="The best platform for find a job.">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
 
-    <title>Jumbotron Template for Bootstrap</title>
+    <title>Fide - Find your perfect Job!</title>
 
     <!-- Bootstrap core CSS -->
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -35,7 +35,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Project name</a>
+        <a class="navbar-brand" href="#">Fide</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <form class="navbar-form navbar-right" role="form">
@@ -57,7 +57,7 @@
   <hr>
 
   <footer>
-    <p>&copy; Company 2014</p>
+    <p>Fide Company 2014</p>
 </footer>
 </div> <!-- /container -->
 

@@ -1,4 +1,6 @@
-<?php namespace Fide\Entities;
+<?php 
+
+namespace Fide\Entities;
 
 use Illuminate\Auth\UserTrait;
 use Illuminate\Auth\UserInterface;
@@ -22,5 +24,11 @@ class User extends \Eloquent implements UserInterface, RemindableInterface {
 	 * @var array
 	 */
 	protected $hidden = array('password', 'remember_token');
+
+	protected $fillable = array('full_name', 'email', 'password');
+
+	public function setPasswordAttribute($value){
+		$this->attributes['password'] = \Hash::make($value);
+	}
 
 }

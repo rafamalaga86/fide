@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"Cand",
+				"candidateRepo"
+			],
+			[
+				"cate",
+				"category"
+			],
+			[
+				"catego",
+				"categoryRepo"
+			],
+			[
 				"action",
 				"actionMethodName"
 			],
@@ -32,26 +44,66 @@
 	"buffers":
 	[
 		{
+			"file": "app/routes.php",
+			"settings":
+			{
+				"buffer_size": 730,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/CandidatesController.php",
+			"settings":
+			{
+				"buffer_size": 623,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Fide/Repositories/CandidateRepo.php",
+			"settings":
+			{
+				"buffer_size": 61,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Fide/Repositories/BaseRepo.php",
+			"settings":
+			{
+				"buffer_size": 284,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Fide/Repositories/CategoryRepo.php",
+			"settings":
+			{
+				"buffer_size": 89,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/candidates/category.blade.php",
+			"settings":
+			{
+				"buffer_size": 804,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "app/views/layout.blade.php",
 			"settings":
 			{
-				"buffer_size": 2550,
+				"buffer_size": 2580,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "public/css/fidestyle.css",
+			"file": "app/config/app.php",
 			"settings":
 			{
-				"buffer_size": 126,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Fide/Entities/Candidate.php",
-			"settings":
-			{
-				"buffer_size": 96,
+				"buffer_size": 7620,
 				"line_ending": "Unix"
 			}
 		},
@@ -59,63 +111,7 @@
 			"file": "app/Fide/Entities/Category.php",
 			"settings":
 			{
-				"buffer_size": 95,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/database/seeds/CategoryTableSeeder.php",
-			"settings":
-			{
-				"buffer_size": 446,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/database/seeds/CandidateTableSeeder.php",
-			"settings":
-			{
-				"buffer_size": 794,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "bootstrap/start.php",
-			"settings":
-			{
-				"buffer_size": 2325,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "composer.json",
-			"settings":
-			{
-				"buffer_size": 829,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/routes.php",
-			"settings":
-			{
-				"buffer_size": 463,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/HomeController.php",
-			"settings":
-			{
-				"buffer_size": 580,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/home.blade.php",
-			"settings":
-			{
-				"buffer_size": 1821,
+				"buffer_size": 183,
 				"line_ending": "Unix"
 			}
 		}
@@ -178,9 +174,12 @@
 		"/home/rafael/htdocs/fide",
 		"/home/rafael/htdocs/fide/app",
 		"/home/rafael/htdocs/fide/app/Fide",
-		"/home/rafael/htdocs/fide/app/Fide/Entities",
-		"/home/rafael/htdocs/fide/app/database",
+		"/home/rafael/htdocs/fide/app/Fide/Managers",
+		"/home/rafael/htdocs/fide/app/Fide/Repositories",
+		"/home/rafael/htdocs/fide/app/commands",
+		"/home/rafael/htdocs/fide/app/controllers",
 		"/home/rafael/htdocs/fide/app/database/seeds",
+		"/home/rafael/htdocs/fide/app/views/candidates",
 		"/home/rafael/htdocs/fide/bootstrap",
 		"/home/rafael/htdocs/fide/public",
 		"/home/rafael/htdocs/fide/public/css",
@@ -188,16 +187,39 @@
 	],
 	"file_history":
 	[
+		"/home/rafael/htdocs/fide/composer.json",
+		"/home/rafael/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/rafael/.config/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap",
+		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase4/app/controllers/CandidatesController.php",
+		"/home/rafael/htdocs/fide/app/Fide/Repositories/CategoryRepo.php",
+		"/home/rafael/htdocs/fide/app/Fide/Entities/Candidate.php",
+		"/home/rafael/htdocs/fide/app/config/app.php",
+		"/home/rafael/htdocs/fide/app/controllers/BaseController.php",
+		"/home/rafael/htdocs/fide/.gitignore",
+		"/home/rafael/htdocs/fide/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php",
+		"/home/rafael/htdocs/fide/app/config/view.php",
+		"/home/rafael/htdocs/fide/vendor/symfony/finder/Symfony/Component/Finder/Expression/ValueInterface.php",
+		"/home/rafael/htdocs/fide/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_astext.txt",
+		"/home/rafael/htdocs/fide/CONTRIBUTING.md",
+		"/media/TI30878200C/Users/Rafael/Dropbox/tablacomparativa framework vs csm.txt",
+		"/home/rafael/htdocs/fide/app/controllers/CandidatesController.php",
+		"/home/rafael/htdocs/fide/vendor/predis/predis/lib/Predis/ResponseObjectInterface.php",
+		"/home/rafael/htdocs/fide/readme.md",
+		"/home/rafael/htdocs/fide/app/views/home.blade.php",
+		"/home/rafael/htdocs/fide/app/controllers/HomeController.php",
+		"/home/rafael/htdocs/fide/app/routes.php",
+		"/home/rafael/htdocs/fide/bootstrap/start.php",
+		"/home/rafael/htdocs/fide/app/database/seeds/CandidateTableSeeder.php",
+		"/home/rafael/htdocs/fide/app/database/seeds/CategoryTableSeeder.php",
+		"/home/rafael/htdocs/fide/app/Fide/Entities/Category.php",
+		"/home/rafael/htdocs/fide/public/css/fidestyle.css",
+		"/home/rafael/htdocs/fide/app/views/layout.blade.php",
 		"/etc/apache2/sites-available/pruebavel.local.conf",
 		"/home/rafael/htdocs/fide/app/Fide/Entities/User.php",
-		"/media/TI30878200C/Users/Rafael/Dropbox/tablacomparativa framework vs csm.txt",
 		"/media/TI30878200C/Users/Rafael/Dropbox/Cosas de curriculum/to add.txt",
 		"/home/rafael/htdocs/fide/public/css",
-		"/home/rafael/htdocs/fide/app/database/seeds/CandidateTableSeeder.php",
-		"/home/rafael/htdocs/fide/composer.json",
 		"/home/rafael/htdocs/fide/app/database/seeds/DatabaseSeeder.php",
 		"/home/rafael/htdocs/fide/app/database/migrations/2014_12_11_130218_create_categories_table.php",
-		"/home/rafael/htdocs/fide/app/database/seeds/CategoryTableSeeder.php",
 		"/home/rafael/htdocs/fide/app/database/migrations/2014_12_11_120227_create_users_table.php",
 		"/home/rafael/htdocs/fide/app/database/migrations/2014_12_11_130714_create_candidates_table.php",
 		"/home/rafael/htdocs/fide/app/views/hello.php",
@@ -223,7 +245,6 @@
 		"/media/TI30878200C/Users/Rafael/Datos de programa/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/media/TI30878200C/Users/Rafael/Datos de programa/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
 		"/home/rafael/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-		"/home/rafael/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/home/rafael/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
 		"/home/rafael/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
 		"/media/TI30878200C/Users/Rafael/Dropbox/Cosas/Cuentas Barcklays.txt",
@@ -299,6 +320,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"candidates",
+			"expand",
+			"ctrl+shift",
+			"ctrl+shift+a",
+			"category",
 			"fide",
 			"css",
 			"url",
@@ -363,85 +389,24 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/layout.blade.php",
+					"file": "app/routes.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2550,
+						"buffer_size": 730,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								553,
-								553
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "public/css/fidestyle.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 126,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								126,
-								126
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"open_with_edit": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/Fide/Entities/Candidate.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 96,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								96,
-								96
+								682,
+								682
 							]
 						],
 						"settings":
@@ -453,24 +418,113 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "app/Fide/Entities/Category.php",
+					"buffer": 1,
+					"file": "app/controllers/CandidatesController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 95,
+						"buffer_size": 623,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								30,
-								30
+								618,
+								618
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Fide/Repositories/CandidateRepo.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 61,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								59,
+								59
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Fide/Repositories/BaseRepo.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 284,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								282,
+								282
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/Fide/Repositories/CategoryRepo.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 89,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
 							]
 						],
 						"settings":
@@ -486,86 +540,28 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "app/database/seeds/CategoryTableSeeder.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 446,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								25,
-								25
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
 					"buffer": 5,
-					"file": "app/database/seeds/CandidateTableSeeder.php",
+					"file": "app/views/candidates/category.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 794,
+						"buffer_size": 804,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								264,
-								264
+								207,
+								207
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "bootstrap/start.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2325,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								932,
-								932
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -575,118 +571,87 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "composer.json",
+					"buffer": 6,
+					"file": "app/views/layout.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 829,
+						"buffer_size": 2580,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								400,
-								400
+								397,
+								397
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "app/routes.php",
+					"buffer": 7,
+					"file": "app/config/app.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 463,
+						"buffer_size": 7620,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								463,
-								463
+								4406,
+								4406
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": -0.0,
+						"translation.y": 1479.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/Fide/Entities/Category.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								166
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "app/controllers/HomeController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 580,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								570,
-								570
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "app/views/home.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1821,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1821,
-								1821
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"open_with_edit": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -744,6 +709,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"viewscateg",
+				"app/views/candidates/category.blade.php"
+			],
+			[
+				"route",
+				"app/routes.php"
+			]
 		],
 		"width": 0.0
 	},
@@ -754,7 +727,7 @@
 		[
 			[
 				"",
-				"~/htdocs/pruebavel/pruebavel.sublime-project"
+				"~/htdocs/phpframework/phpframework.sublime-project"
 			]
 		],
 		"width": 356.0

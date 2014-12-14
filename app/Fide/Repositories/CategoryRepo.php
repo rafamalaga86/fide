@@ -2,11 +2,12 @@
 
 namespace Fide\Repositories;
 
+use Fide\Entities\Candidate;
 use Fide\Entities\Category;
 
-class CategoryRepo{
-
-	public function find($id){
-		return Category::find($id);
+class CategoryRepo extends BaseRepo{
+	
+	public function getModel(){
+		return new Category;
 	}
 }

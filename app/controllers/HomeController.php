@@ -1,5 +1,7 @@
 <?php
 
+use Fide\Repositories\CandidateRepo;
+
 class HomeController extends BaseController {
 
 	/*
@@ -15,9 +17,17 @@ class HomeController extends BaseController {
 	|
 	*/
 
+	protected $candidateRepo;
+
+	public function __construct(CandidateRepo $candidateRepo){
+		$this->candidateRepo = $candidateRepo;
+	}
+
 	public function index()
 	{
-		return View::make('home');
+		$latest_candidates = $this->candidateRepo->findLatest();
+
+		return View::make('home', compact('latest_candidates'));
 	}
 
 }
