@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"Redir",
+				"Redirect-back	Redirect-back"
+			],
+			[
+				"err",
+				"error_reporting"
+			],
+			[
+				"arra",
+				"array	$… = array (…)"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"default",
+				"defaultClasses"
+			],
+			[
+				"defa",
+				"defaultClass"
+			],
+			[
 				"Cand",
 				"candidateRepo"
 			],
@@ -28,10 +52,6 @@
 				"getControllerFileName"
 			],
 			[
-				"default",
-				"defaultAction"
-			],
-			[
 				"getContr",
 				"getControllerClassName"
 			],
@@ -47,47 +67,15 @@
 			"file": "app/routes.php",
 			"settings":
 			{
-				"buffer_size": 730,
+				"buffer_size": 1470,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/CandidatesController.php",
+			"file": "app/Fide/Managers/RegisterManager.php",
 			"settings":
 			{
-				"buffer_size": 623,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Fide/Repositories/CandidateRepo.php",
-			"settings":
-			{
-				"buffer_size": 61,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Fide/Repositories/BaseRepo.php",
-			"settings":
-			{
-				"buffer_size": 284,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/Fide/Repositories/CategoryRepo.php",
-			"settings":
-			{
-				"buffer_size": 89,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/candidates/category.blade.php",
-			"settings":
-			{
-				"buffer_size": 804,
+				"buffer_size": 308,
 				"line_ending": "Unix"
 			}
 		},
@@ -95,23 +83,39 @@
 			"file": "app/views/layout.blade.php",
 			"settings":
 			{
-				"buffer_size": 2580,
+				"buffer_size": 3559,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/config/app.php",
+			"file": "app/views/users/account.blade.php",
 			"settings":
 			{
-				"buffer_size": 7620,
+				"buffer_size": 718,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/Fide/Entities/Category.php",
+			"file": "app/start/global.php",
 			"settings":
 			{
-				"buffer_size": 183,
+				"buffer_size": 2692,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/UsersController.php",
+			"settings":
+			{
+				"buffer_size": 873,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase6/app/controllers/UsersController.php",
+			"settings":
+			{
+				"buffer_size": 1795,
 				"line_ending": "Unix"
 			}
 		}
@@ -174,55 +178,124 @@
 		"/home/rafael/htdocs/fide",
 		"/home/rafael/htdocs/fide/app",
 		"/home/rafael/htdocs/fide/app/Fide",
-		"/home/rafael/htdocs/fide/app/Fide/Managers",
-		"/home/rafael/htdocs/fide/app/Fide/Repositories",
-		"/home/rafael/htdocs/fide/app/commands",
-		"/home/rafael/htdocs/fide/app/controllers",
-		"/home/rafael/htdocs/fide/app/database/seeds",
-		"/home/rafael/htdocs/fide/app/views/candidates",
-		"/home/rafael/htdocs/fide/bootstrap",
+		"/home/rafael/htdocs/fide/app/start",
+		"/home/rafael/htdocs/fide/app/views",
+		"/home/rafael/htdocs/fide/app/views/users",
 		"/home/rafael/htdocs/fide/public",
 		"/home/rafael/htdocs/fide/public/css",
 		"/home/rafael/htdocs/fide/vendor"
 	],
 	"file_history":
 	[
+		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase6/app/views/users/account.blade.php",
+		"/etc/hosts",
+		"/etc/apache2/sites-enabled/rafa.local.conf",
+		"/etc/apache2/sites-available/rafa.local.conf",
+		"/etc/apache2/sites-available/prueba3.local.conf",
+		"/etc/apache2/sites-available/prueba2.local.conf",
+		"/etc/apache2/sites-available/prueba1.local.conf",
+		"/home/rafael/htdocs/fide/app/Fide/Managers/BaseManager.php",
+		"/home/rafael/htdocs/fide/app/Fide/Entities/User.php",
+		"/home/rafael/htdocs/fide/app/Fide/Managers/AccountManager.php",
+		"/home/rafael/htdocs/fide/app/Fide/Managers/ValidationException.php",
+		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase6/app/HireMe/Managers/AccountManager.php",
+		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase6/app/HireMe/Managers/ValidationException.php",
+		"/home/rafael/htdocs/fide/app/controllers/BaseController.php",
+		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase6/app/controllers/UsersController.php",
+		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase6/app/HireMe/Managers/BaseManager.php",
+		"/home/rafael/htdocs/fide/vendor/nikic/php-parser/lib/PHPParser/BuilderAbstract.php",
+		"/home/rafael/htdocs/fide/vendor/bin/boris",
+		"/home/rafael/htdocs/fide/app/views/layout.blade.php",
+		"/home/rafael/htdocs/fide/public/css/fidestyle.css",
+		"/home/rafael/htdocs/fide/app/controllers/AuthController.php",
+		"/home/rafael/htdocs/fide/app/views/users/account.blade.php",
+		"/home/rafael/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/rafael/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/rafael/htdocs/fide/vendor/barryvdh/laravel-debugbar/src/Resources/vendor/font-awesome/style.css",
+		"/home/rafael/htdocs/fide/vendor/nesbot/carbon/tests/SubTest.php",
+		"/home/rafael/htdocs/fide/app/views/users/sign_upORI.blade.php",
+		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase6/app/views/layout.blade.php",
+		"/home/rafael/htdocs/cc/index.php",
+		"/media/TI30878200C/Users/Rafael/Dropbox/Examen PHP.txt",
+		"/home/rafael/htdocs/fide/app/config/auth.php",
+		"/home/rafael/htdocs/cc/index.html",
+		"/home/rafael/htdocs/cc/css/style.css",
+		"/media/TI30878200C/Users/Rafael/Dropbox/Click Creacion/Clickcreacion v3.0/Plantilla/themeforest-7933142-unique-parallax-one-page-template/unique-template/Unique/index.html",
+		"/home/rafael/htdocs/fide/vendor/laravel/framework/src/Illuminate/Support/Facades/Redirect.php",
+		"/home/rafael/htdocs/fide/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php",
+		"/home/rafael/htdocs/fide/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Builder.php",
+		"/home/rafael/htdocs/fide/vendor/barryvdh/laravel-debugbar/src/Facade.php",
+		"/home/rafael/htdocs/fide/vendor/laravel/framework/src/Illuminate/Http/RedirectResponse.php",
+		"/home/rafael/htdocs/fide/vendor/laravel/framework/src/Illuminate/Routing/Redirector.php",
+		"/home/rafael/htdocs/fide/readme.md",
+		"/home/rafael/htdocs/fide/vendor/predis/predis/lib/Predis/Pipeline/FireAndForgetExecutor.php",
+		"/home/rafael/htdocs/fide/vendor/laravel/framework/src/Illuminate/Routing/Route.php",
+		"/home/rafael/htdocs/fide/app/Fide/Components/FieldServiceProvider.php",
+		"/home/rafael/htdocs/fide/app/views/users/sign_up.blade.php",
+		"/home/rafael/Documents/Laravel Tuts (copy)/Lynda - Up and Running with Laravel (Jul 29, 2014)/ReadMe.txt",
+		"/home/rafael/htdocs/fide/app/Fide/Components/FieldBuilder.php",
+		"/home/rafael/htdocs/fide/app/routes.php",
+		"/home/rafael/htdocs/fide/app/controllers/UsersController.php",
+		"/home/rafael/htdocs/fide/app/Fide/Components/Field.php",
+		"/home/rafael/htdocs/fide/app/config/app.php",
+		"/home/rafael/htdocs/fide/vendor/swiftmailer/swiftmailer/tests/_samples/smime/sign.crt",
+		"/home/rafael/htdocs/fide/vendor/swiftmailer/swiftmailer/lib/swift_init.php",
+		"/home/rafael/htdocs/fide/vendor/predis/predis/bin/create-single-file",
+		"/home/rafael/htdocs/fide/app/views/candidates/show.blade.php",
+		"/home/rafael/htdocs/fide/vendor/symfony/translation/Symfony/Component/Translation/Dumper/FileDumper.php",
+		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase5/app/HireMe/Components/FieldBuilder.php",
+		"/home/rafael/htdocs/fide/app/views/fields/default.blade.php",
+		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase5/app/HireMe/Components/FieldServiceProvider.php",
+		"/home/rafael/htdocs/fide/app/controllers/CandidatesController.php",
+		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase5/app/controllers/UsersController.php",
+		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase5/app/HireMe/Managers/BaseManager.php",
+		"/home/rafael/htdocs/fide/app/views/field/default.blade.php",
+		"/home/rafael/htdocs/fide/app/Fide/Repositories/CandidateRepo.php",
+		"/home/rafael/htdocs/fide/app/Fide/Managers/RegisterManager.php",
+		"/home/rafael/htdocs/fide/app/database/seeds/CandidateTableSeeder.php",
+		"/home/rafael/htdocs/fide/app/lang/es/validation.php",
+		"/home/rafael/htdocs/fide/app/lang/es/utils.php",
+		"/media/TI30878200C/Users/Rafael/Dropbox/tablacomparativa framework vs csm.txt",
+		"/home/rafael/htdocs/fide/fide.sublime-project",
+		"/home/rafael/htdocs/fide/app/views/home.blade.php",
+		"/home/rafael/htdocs/fide/app/controllers/HomeController.php",
+		"/home/rafael/htdocs/fide/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOneOrMany.php",
+		"/home/rafael/htdocs/fide/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Relations/HasOne.php",
+		"/home/rafael/htdocs/fide/app/views/hello.php",
+		"/home/rafael/htdocs/fide/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/UriSigner.php",
+		"/home/rafael/htdocs/fide/vendor/nikic/php-parser/lib/PHPParser/Node/Stmt/UseUse.php",
+		"/home/rafael/htdocs/fide/app/storage/debugbar/e05ae346a0f8e1bb5af0ce27fb386250.json",
+		"/home/rafael/htdocs/fide/app/Fide/Entities/Category.php",
+		"/home/rafael/htdocs/fide/app/views/candidates/category.blade.php",
+		"/home/rafael/htdocs/fide/app/Fide/Entities/Candidate.php",
+		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase4/app/views/home.blade.php",
+		"/home/rafael/htdocs/fide/app/lang/en/utils.php",
+		"/home/rafael/htdocs/fide/vendor/predis/predis/examples/SessionHandler.php",
+		"/home/rafael/htdocs/fide/server.php",
+		"/home/rafael/htdocs/fide/app/Fide/Repositories/BaseRepo.php",
+		"/home/rafael/htdocs/fide/app/Fide/Repositories/CategoryRepo.php",
+		"/home/rafael/htdocs/fide/vendor/psr/log/Psr/Log/LoggerAwareInterface.php",
+		"/home/rafael/htdocs/fide/app/start/local.php",
+		"/home/rafael/htdocs/fide/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_astext.txt",
+		"/home/rafael/htdocs/fide/CONTRIBUTING.md",
 		"/home/rafael/htdocs/fide/composer.json",
 		"/home/rafael/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
 		"/home/rafael/.config/sublime-text-3/Packages/Emmet/Default (Linux).sublime-keymap",
 		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase4/app/controllers/CandidatesController.php",
-		"/home/rafael/htdocs/fide/app/Fide/Repositories/CategoryRepo.php",
-		"/home/rafael/htdocs/fide/app/Fide/Entities/Candidate.php",
-		"/home/rafael/htdocs/fide/app/config/app.php",
-		"/home/rafael/htdocs/fide/app/controllers/BaseController.php",
 		"/home/rafael/htdocs/fide/.gitignore",
 		"/home/rafael/htdocs/fide/vendor/laravel/framework/src/Illuminate/View/ViewServiceProvider.php",
 		"/home/rafael/htdocs/fide/app/config/view.php",
 		"/home/rafael/htdocs/fide/vendor/symfony/finder/Symfony/Component/Finder/Expression/ValueInterface.php",
-		"/home/rafael/htdocs/fide/vendor/symfony/console/Symfony/Component/Console/Tests/Fixtures/command_astext.txt",
-		"/home/rafael/htdocs/fide/CONTRIBUTING.md",
-		"/media/TI30878200C/Users/Rafael/Dropbox/tablacomparativa framework vs csm.txt",
-		"/home/rafael/htdocs/fide/app/controllers/CandidatesController.php",
 		"/home/rafael/htdocs/fide/vendor/predis/predis/lib/Predis/ResponseObjectInterface.php",
-		"/home/rafael/htdocs/fide/readme.md",
-		"/home/rafael/htdocs/fide/app/views/home.blade.php",
-		"/home/rafael/htdocs/fide/app/controllers/HomeController.php",
-		"/home/rafael/htdocs/fide/app/routes.php",
 		"/home/rafael/htdocs/fide/bootstrap/start.php",
-		"/home/rafael/htdocs/fide/app/database/seeds/CandidateTableSeeder.php",
 		"/home/rafael/htdocs/fide/app/database/seeds/CategoryTableSeeder.php",
-		"/home/rafael/htdocs/fide/app/Fide/Entities/Category.php",
-		"/home/rafael/htdocs/fide/public/css/fidestyle.css",
-		"/home/rafael/htdocs/fide/app/views/layout.blade.php",
 		"/etc/apache2/sites-available/pruebavel.local.conf",
-		"/home/rafael/htdocs/fide/app/Fide/Entities/User.php",
 		"/media/TI30878200C/Users/Rafael/Dropbox/Cosas de curriculum/to add.txt",
 		"/home/rafael/htdocs/fide/public/css",
 		"/home/rafael/htdocs/fide/app/database/seeds/DatabaseSeeder.php",
 		"/home/rafael/htdocs/fide/app/database/migrations/2014_12_11_130218_create_categories_table.php",
 		"/home/rafael/htdocs/fide/app/database/migrations/2014_12_11_120227_create_users_table.php",
 		"/home/rafael/htdocs/fide/app/database/migrations/2014_12_11_130714_create_candidates_table.php",
-		"/home/rafael/htdocs/fide/app/views/hello.php",
 		"/home/rafael/htdocs/fide/app/models/Peter.php",
 		"/home/rafael/htdocs/phpframework/readme.md",
 		"/home/rafael/htdocs/phpframework/.gitignore",
@@ -241,67 +314,7 @@
 		"/home/rafael/htdocs/phpframework/logs.txt",
 		"/home/rafael/htdocs/phpframework/library/Response.php",
 		"/home/rafael/htdocs/phpframework/library/View.php",
-		"/media/TI30878200C/Users/Rafael/Datos de programa/Sublime Text 3/Local/Session.sublime_session",
-		"/media/TI30878200C/Users/Rafael/Datos de programa/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/media/TI30878200C/Users/Rafael/Datos de programa/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
-		"/home/rafael/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
-		"/home/rafael/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
-		"/home/rafael/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
-		"/media/TI30878200C/Users/Rafael/Dropbox/Cosas/Cuentas Barcklays.txt",
-		"/etc/default/grub",
-		"/media/TI30878200C/Users/Rafael/Dropbox/dfSDAF/rafa/index.php",
-		"/home/rafael/htdocs/phpframework/views/home.php",
-		"/etc/apache2/sites-available/phpframework.local.conf",
-		"/home/rafael/htdocs/phpframework/controllers/contactController.php",
-		"/home/rafael/htdocs/phpframework/views/contact.php",
-		"/home/rafael/htdocs/phpframework/.htaccess",
-		"/home/rafael/htdocs/phpframework/controllers/homeController.php",
-		"/home/rafael/htdocs/phpframework/controllers/contact.php",
-		"/tmp/fz3temp-1/wp-config 3.php",
-		"/tmp/fz3temp-1/wp-config 2.php",
-		"/tmp/fz3temp-1/wp-config.php",
-		"/home/rafael/htdocs/mejorandogit-master/index.html",
-		"/home/rafael/htdocs/phpframework/controllers/home.php",
-		"/home/rafael/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
-		"/home/rafael/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
-		"/home/rafael/htdocs/phpframework/view.php",
-		"/home/rafael/Documents/Clase 1 de marketing",
-		"/home/rafael/htdocs/phpframework/peter.css",
-		"/home/rafael/htdocs/phpframework/peter.js",
-		"/home/rafael/htdocs/phpframework/peter.json",
-		"/home/rafael/.config/sublime-text-3/Packages/Phpcs/phpcs.sublime-settings",
-		"/home/rafael/.config/sublime-text-3/Packages/Phpcs/Default (Linux).sublime-keymap",
-		"/tmp/fz3temp-1/send.php",
-		"/tmp/fz3temp-1/newsletter.php",
-		"/home/rafael/Documents/paqutetitos.txt",
-		"/home/rafael/Documents/- Organización: Planificacion antes de empezar",
-		"/home/rafael/htdocs/cc/index.php",
-		"/tmp/fz3temp-1/index.html",
-		"/home/rafael/Downloads/index.php",
-		"/media/rafael/1024/Mejorandola Cursos/Servers y Devops/Clase 1/notas.txt",
-		"/tmp/fz3temp-1/skel.css",
-		"/tmp/fz3temp-1/style.css",
-		"/tmp/fz3temp-1/style-wide.css",
-		"/tmp/fz3temp-1/init.js",
-		"/tmp/fz3temp-1/flaticon.css",
-		"/tmp/fz3temp-1/flaticon.html",
-		"/tmp/fz3temp-1/flaticon 2.css",
-		"/tmp/fz3temp-1/font-awesome.min.css",
-		"/home/rafael/htdocs/snazzy/css/font-awesome.min.css",
-		"/home/rafael/htdocs/snazzy/css/style.css",
-		"/home/rafael/htdocs/snazzy/index.html",
-		"/home/rafael/htdocs/snazzy/send.php",
-		"/home/rafael/Downloads/send.php",
-		"/home/rafael/Downloads/send (1).php",
-		"/home/rafael/htdocs/snazzy/sass/style.scss",
-		"/etc/hosts",
-		"/etc/apache2/sites-available/example.com.conf",
-		"/etc/apache2/sites-enabled/000-default.conf",
-		"/etc/apache2/sites-available/000-default.conf",
-		"/etc/apache2/apache2.conf",
-		"/etc/apache2/sites-available/default-ssl.conf",
-		"/etc/apache2/sites-available/example.com",
-		"/etc/apache2/sites-available/example.conf"
+		"/media/TI30878200C/Users/Rafael/Datos de programa/Sublime Text 3/Local/Session.sublime_session"
 	],
 	"find":
 	{
@@ -312,6 +325,9 @@
 		"height": 93.0,
 		"where_history":
 		[
+			"/home/rafael/htdocs/fide/",
+			"/home/rafael/htdocs/fide/app",
+			"/home/rafael/htdocs/Fide",
 			"/home/rafael/htdocs/snazzy"
 		]
 	},
@@ -320,6 +336,58 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"prueba1",
+			"pruebavel",
+			"cate",
+			"withInput",
+			"updateAccount",
+			"updateProfile",
+			"account",
+			"profile",
+			"account",
+			"false",
+			"registro",
+			"reposito",
+			"registro",
+			"frontend",
+			"frameworks en",
+			"abstract",
+			"entidad",
+			"class Route",
+			"call_user_func_array",
+			"call_user_fun_array",
+			"session",
+			"form",
+			"Ht",
+			"Html",
+			"FormBuilder",
+			"email",
+			"input",
+			"errors",
+			"params",
+			"var",
+			"Support",
+			"has",
+			"->has",
+			"fieldBuilder",
+			"ServiceProvider",
+			"/ServiceProvider",
+			"\\ServiceProvider",
+			"ServiceProvider",
+			"value",
+			"RegisterManager",
+			"RegisterManage",
+			"messages",
+			"full_name",
+			"password_confirmation",
+			"full_name",
+			"password_confirmation",
+			"password",
+			"full_name",
+			"password_confirmation",
+			"label",
+			"mejoran",
+			"candidate",
 			"candidates",
 			"expand",
 			"ctrl+shift",
@@ -398,15 +466,45 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 730,
+						"buffer_size": 1470,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								682,
-								682
+								1186,
+								1186
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 612.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Fide/Managers/RegisterManager.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								199,
+								199
 							]
 						],
 						"settings":
@@ -422,169 +520,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "app/controllers/CandidatesController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 623,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								618,
-								618
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
 					"buffer": 2,
-					"file": "app/Fide/Repositories/CandidateRepo.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 61,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								59,
-								59
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"open_with_edit": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/Fide/Repositories/BaseRepo.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 284,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								282,
-								282
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"open_with_edit": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/Fide/Repositories/CategoryRepo.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 89,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								87,
-								87
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/views/candidates/category.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 804,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								207,
-								207
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "app/views/layout.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2580,
+						"buffer_size": 3559,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								397,
-								397
+								0,
+								0
 							]
 						],
 						"settings":
@@ -598,54 +547,55 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "app/config/app.php",
+					"buffer": 3,
+					"file": "app/views/users/account.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7620,
+						"buffer_size": 718,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4406,
-								4406
+								40,
+								40
 							]
 						],
 						"settings":
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": -0.0,
-						"translation.y": 1479.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "app/Fide/Entities/Category.php",
+					"buffer": 4,
+					"file": "app/start/global.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 183,
+						"buffer_size": 2692,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								166,
-								166
+								974,
+								974
 							]
 						],
 						"settings":
@@ -654,10 +604,71 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
+						"translation.y": 714.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/controllers/UsersController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 873,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								813,
+								813
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase6/app/controllers/UsersController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1795,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								869,
+								869
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -710,12 +721,72 @@
 		"selected_items":
 		[
 			[
-				"viewscateg",
-				"app/views/candidates/category.blade.php"
+				"basemana",
+				"app/Fide/Managers/BaseManager.php"
+			],
+			[
+				"basemanag",
+				"app/Fide/Managers/BaseManager.php"
+			],
+			[
+				"base",
+				"app/controllers/BaseController.php"
+			],
+			[
+				"layout",
+				"app/views/layout.blade.php"
+			],
+			[
+				"lay",
+				"app/views/layout.blade.php"
+			],
+			[
+				"facade",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php"
+			],
+			[
+				"redirect",
+				"vendor/laravel/framework/src/Illuminate/Support/Facades/Redirect.php"
 			],
 			[
 				"route",
 				"app/routes.php"
+			],
+			[
+				"sign",
+				"app/views/users/sign_upORI.blade.php"
+			],
+			[
+				"fieldbuil",
+				"app/Fide/Components/FieldBuilder.php"
+			],
+			[
+				"fidest",
+				"public/css/fidestyle.css"
+			],
+			[
+				"home",
+				"app/views/home.blade.php"
+			],
+			[
+				"user",
+				"app/Fide/Entities/User.php"
+			],
+			[
+				"routes",
+				"app/routes.php"
+			],
+			[
+				"show",
+				"app/views/candidates/show.blade.php"
+			],
+			[
+				"candidates",
+				"app/controllers/CandidatesController.php"
+			],
+			[
+				"viewscateg",
+				"app/views/candidates/category.blade.php"
 			]
 		],
 		"width": 0.0
@@ -727,18 +798,30 @@
 		[
 			[
 				"",
-				"~/htdocs/phpframework/phpframework.sublime-project"
+				"~/htdocs/pruebavel/pruebavel.sublime-workspace"
 			]
 		],
 		"width": 356.0
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 367.0,
 		"selected_items":
 		[
+			[
+				"with",
+				"with"
+			],
+			[
+				"Facade",
+				"Facade"
+			],
+			[
+				"Redirec",
+				"Redirect"
+			]
 		],
-		"width": 0.0
+		"width": 807.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -748,7 +831,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 344.0,
+	"side_bar_width": 267.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

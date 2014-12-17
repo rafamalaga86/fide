@@ -4,6 +4,7 @@ namespace Fide\Repositories;
 
 use Fide\Entities\Candidate;
 use Fide\Entities\Category;
+use Fide\Entities\User;
 
 class CandidateRepo extends BaseRepo{
 
@@ -20,4 +21,12 @@ class CandidateRepo extends BaseRepo{
 			'candidates.user'
 		])->get();
 	}
+
+	public function newCandidate(){
+
+		$user = new User();
+		$user->type = 'candidate';
+		return $user;
+	}
+
 }

@@ -9,29 +9,13 @@
                 
                 {{ Form::open(['method' => 'POST', 'role' => 'form', 'novalidate']) }}
 
-                <div class="form-group">
-                    {{ Form::label('full_name', 'Nombre completo') }}
-                    {{ Form::text('full_name', null,['class' => 'form-control'] ) }}
-                    {{ $errors->first('full_name', '<p class="error-message">:message</p>') }}
-                </div>
+                {{ Field::text('full_name') }}
 
-                <div class="form-group">
-                    {{ Form::label('email', 'Email') }}
-                    {{ Form::email('email', null,['class' => 'form-control'] ) }}
-                    {{ $errors->first('email', '<p class="error-message">:message</p>') }}
-                </div>
+                {{ Field::email('email') }}
 
-                <div class="form-group">
-                    {{ Form::label('password', 'Contraseña') }}
-                    {{ Form::password('password',['class' => 'form-control'] ) }}
-                    {{ $errors->first('password', '<p class="error-message">:message</p>') }}
-                </div>
+                {{ Field::password('password') }}
 
-                <div class="form-group">
-                    {{ Form::label('password_confirmation', 'Repite la contraseña') }}
-                    {{ Form::password('password_confirmation', ['class' => 'form-control'] ) }}
-                    {{ $errors->first('password_confirmation', '<p class="error-message">:message</p>') }}
-                </div>
+                {{ Field::password('password_confirmation', ['placeholder' => 'Repite tu contraseña']) }}
 
                 <p>
                     <input type="submit" value="Register" class="btn btn-success">
