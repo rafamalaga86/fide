@@ -20,7 +20,7 @@
             {{ Field::checkbox('available') }}
 
             <p>
-                <input type="submit" value="Cambiar mis datos" class="btn btn-success">
+                <input type="submit" value="Actualizar perfil" class="btn btn-success">
             </p>
 
             {{ Form::close() }}

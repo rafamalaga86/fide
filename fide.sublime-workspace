@@ -64,26 +64,82 @@
 	"buffers":
 	[
 		{
-			"file": "app/routes.php",
+			"file": "app/controllers/UsersController.php",
 			"settings":
 			{
-				"buffer_size": 1470,
+				"buffer_size": 1538,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/Fide/Managers/RegisterManager.php",
+			"file": "app/Fide/Entities/Candidate.php",
 			"settings":
 			{
-				"buffer_size": 308,
+				"buffer_size": 475,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/layout.blade.php",
+			"file": "app/Fide/Entities/User.php",
 			"settings":
 			{
-				"buffer_size": 3559,
+				"buffer_size": 1029,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Fide/Components/FieldBuilder.php",
+			"settings":
+			{
+				"buffer_size": 3027,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/lang/es/validation.php",
+			"settings":
+			{
+				"buffer_size": 5899,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Fide/Repositories/CategoryRepo.php",
+			"settings":
+			{
+				"buffer_size": 263,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Fide/Managers/ProfileManager.php",
+			"settings":
+			{
+				"buffer_size": 492,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Fide/Managers/BaseManager.php",
+			"settings":
+			{
+				"buffer_size": 725,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/CandidatesController.php",
+			"settings":
+			{
+				"buffer_size": 669,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/users/profile.blade.php",
+			"settings":
+			{
+				"buffer_size": 758,
 				"line_ending": "Unix"
 			}
 		},
@@ -91,31 +147,7 @@
 			"file": "app/views/users/account.blade.php",
 			"settings":
 			{
-				"buffer_size": 718,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/start/global.php",
-			"settings":
-			{
-				"buffer_size": 2692,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/UsersController.php",
-			"settings":
-			{
-				"buffer_size": 873,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase6/app/controllers/UsersController.php",
-			"settings":
-			{
-				"buffer_size": 1795,
+				"buffer_size": 727,
 				"line_ending": "Unix"
 			}
 		}
@@ -178,15 +210,35 @@
 		"/home/rafael/htdocs/fide",
 		"/home/rafael/htdocs/fide/app",
 		"/home/rafael/htdocs/fide/app/Fide",
-		"/home/rafael/htdocs/fide/app/start",
+		"/home/rafael/htdocs/fide/app/Fide/Entities",
+		"/home/rafael/htdocs/fide/app/Fide/Managers",
+		"/home/rafael/htdocs/fide/app/lang",
+		"/home/rafael/htdocs/fide/app/lang/es",
 		"/home/rafael/htdocs/fide/app/views",
-		"/home/rafael/htdocs/fide/app/views/users",
-		"/home/rafael/htdocs/fide/public",
-		"/home/rafael/htdocs/fide/public/css",
-		"/home/rafael/htdocs/fide/vendor"
+		"/home/rafael/htdocs/fide/app/views/candidates",
+		"/home/rafael/htdocs/fide/app/views/users"
 	],
 	"file_history":
 	[
+		"/home/rafael/htdocs/fide/app/controllers/CandidatesController.php",
+		"/home/rafael/htdocs/fide/artisan",
+		"/home/rafael/htdocs/fide/app/views/users/account.blade.php",
+		"/home/rafael/htdocs/fide/app/Fide/Entities/Category.php",
+		"/home/rafael/htdocs/fide/app/Fide/Entities/User.php",
+		"/home/rafael/htdocs/fide/vendor/symfony/security-core/Symfony/Component/Security/Core/User/UserChecker.php",
+		"/home/rafael/htdocs/fide/app/Fide/Managers/AccountManager.php",
+		"/home/rafael/htdocs/pruebavel/app/HireMe/Components/FieldBuilder.php",
+		"/home/rafael/htdocs/fide/app/Fide/Components/FieldBuilder.php",
+		"/home/rafael/htdocs/fide/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/DependencyInjection/AddClassesToCachePass.php",
+		"/home/rafael/htdocs/fide/vendor/composer/autoload_classmap.php",
+		"/home/rafael/htdocs/fide/app/Fide/Components/Field.php",
+		"/home/rafael/htdocs/pruebavel/app/HireMe/Components/Field.php",
+		"/home/rafael/htdocs/fide/app/routes.php",
+		"/home/rafael/htdocs/fide/app/Fide/Managers/RegisterManager.php",
+		"/home/rafael/htdocs/fide/app/views/layout.blade.php",
+		"/home/rafael/htdocs/fide/app/start/global.php",
+		"/home/rafael/htdocs/fide/app/controllers/UsersController.php",
+		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase6/app/controllers/UsersController.php",
 		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase6/app/views/users/account.blade.php",
 		"/etc/hosts",
 		"/etc/apache2/sites-enabled/rafa.local.conf",
@@ -195,20 +247,15 @@
 		"/etc/apache2/sites-available/prueba2.local.conf",
 		"/etc/apache2/sites-available/prueba1.local.conf",
 		"/home/rafael/htdocs/fide/app/Fide/Managers/BaseManager.php",
-		"/home/rafael/htdocs/fide/app/Fide/Entities/User.php",
-		"/home/rafael/htdocs/fide/app/Fide/Managers/AccountManager.php",
 		"/home/rafael/htdocs/fide/app/Fide/Managers/ValidationException.php",
 		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase6/app/HireMe/Managers/AccountManager.php",
 		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase6/app/HireMe/Managers/ValidationException.php",
 		"/home/rafael/htdocs/fide/app/controllers/BaseController.php",
-		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase6/app/controllers/UsersController.php",
 		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase6/app/HireMe/Managers/BaseManager.php",
 		"/home/rafael/htdocs/fide/vendor/nikic/php-parser/lib/PHPParser/BuilderAbstract.php",
 		"/home/rafael/htdocs/fide/vendor/bin/boris",
-		"/home/rafael/htdocs/fide/app/views/layout.blade.php",
 		"/home/rafael/htdocs/fide/public/css/fidestyle.css",
 		"/home/rafael/htdocs/fide/app/controllers/AuthController.php",
-		"/home/rafael/htdocs/fide/app/views/users/account.blade.php",
 		"/home/rafael/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
 		"/home/rafael/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
 		"/home/rafael/htdocs/fide/vendor/barryvdh/laravel-debugbar/src/Resources/vendor/font-awesome/style.css",
@@ -233,10 +280,6 @@
 		"/home/rafael/htdocs/fide/app/Fide/Components/FieldServiceProvider.php",
 		"/home/rafael/htdocs/fide/app/views/users/sign_up.blade.php",
 		"/home/rafael/Documents/Laravel Tuts (copy)/Lynda - Up and Running with Laravel (Jul 29, 2014)/ReadMe.txt",
-		"/home/rafael/htdocs/fide/app/Fide/Components/FieldBuilder.php",
-		"/home/rafael/htdocs/fide/app/routes.php",
-		"/home/rafael/htdocs/fide/app/controllers/UsersController.php",
-		"/home/rafael/htdocs/fide/app/Fide/Components/Field.php",
 		"/home/rafael/htdocs/fide/app/config/app.php",
 		"/home/rafael/htdocs/fide/vendor/swiftmailer/swiftmailer/tests/_samples/smime/sign.crt",
 		"/home/rafael/htdocs/fide/vendor/swiftmailer/swiftmailer/lib/swift_init.php",
@@ -246,12 +289,10 @@
 		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase5/app/HireMe/Components/FieldBuilder.php",
 		"/home/rafael/htdocs/fide/app/views/fields/default.blade.php",
 		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase5/app/HireMe/Components/FieldServiceProvider.php",
-		"/home/rafael/htdocs/fide/app/controllers/CandidatesController.php",
 		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase5/app/controllers/UsersController.php",
 		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase5/app/HireMe/Managers/BaseManager.php",
 		"/home/rafael/htdocs/fide/app/views/field/default.blade.php",
 		"/home/rafael/htdocs/fide/app/Fide/Repositories/CandidateRepo.php",
-		"/home/rafael/htdocs/fide/app/Fide/Managers/RegisterManager.php",
 		"/home/rafael/htdocs/fide/app/database/seeds/CandidateTableSeeder.php",
 		"/home/rafael/htdocs/fide/app/lang/es/validation.php",
 		"/home/rafael/htdocs/fide/app/lang/es/utils.php",
@@ -265,7 +306,6 @@
 		"/home/rafael/htdocs/fide/vendor/symfony/http-kernel/Symfony/Component/HttpKernel/UriSigner.php",
 		"/home/rafael/htdocs/fide/vendor/nikic/php-parser/lib/PHPParser/Node/Stmt/UseUse.php",
 		"/home/rafael/htdocs/fide/app/storage/debugbar/e05ae346a0f8e1bb5af0ce27fb386250.json",
-		"/home/rafael/htdocs/fide/app/Fide/Entities/Category.php",
 		"/home/rafael/htdocs/fide/app/views/candidates/category.blade.php",
 		"/home/rafael/htdocs/fide/app/Fide/Entities/Candidate.php",
 		"/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase4/app/views/home.blade.php",
@@ -307,14 +347,7 @@
 		"/home/rafael/htdocs/phpframework/helpers.php",
 		"/home/rafael/htdocs/phpframework/views/contact.tpl.php",
 		"/home/rafael/htdocs/phpframework/views/home.tpl.php",
-		"/home/rafael/htdocs/phpframework/index.php",
-		"/home/rafael/htdocs/phpframework/library/Inflector.php",
-		"/home/rafael/htdocs/phpframework/controllers/HomeController.php",
-		"/home/rafael/htdocs/phpframework/controllers/ContactosController.php",
-		"/home/rafael/htdocs/phpframework/logs.txt",
-		"/home/rafael/htdocs/phpframework/library/Response.php",
-		"/home/rafael/htdocs/phpframework/library/View.php",
-		"/media/TI30878200C/Users/Rafael/Datos de programa/Sublime Text 3/Local/Session.sublime_session"
+		"/home/rafael/htdocs/phpframework/index.php"
 	],
 	"find":
 	{
@@ -336,6 +369,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"validateExist",
+			"$option",
+			"select",
+			"category_id",
+			"Account",
 			"prueba1",
 			"pruebavel",
 			"cate",
@@ -444,6 +482,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Profile",
 			"pruebavel",
 			"glyph-icon icon-",
 			".icon"
@@ -457,24 +496,24 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/routes.php",
+					"file": "app/controllers/UsersController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1470,
+						"buffer_size": 1538,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1186,
-								1186
+								990,
+								990
 							]
 						],
 						"settings":
@@ -484,27 +523,148 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 612.0,
+						"translation.y": 510.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "app/Fide/Managers/RegisterManager.php",
+					"file": "app/Fide/Entities/Candidate.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 308,
+						"buffer_size": 475,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								199,
-								199
+								362,
+								362
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Fide/Entities/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1029,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								786,
+								786
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/Fide/Components/FieldBuilder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3027,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2330,
+								2330
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 942.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/lang/es/validation.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5899,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5691,
+								5691
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 1275.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/Fide/Repositories/CategoryRepo.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								255,
+								255
 							]
 						],
 						"settings":
@@ -516,16 +676,139 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "app/views/layout.blade.php",
+					"buffer": 6,
+					"file": "app/Fide/Managers/ProfileManager.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3559,
+						"buffer_size": 492,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								362,
+								362
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/Fide/Managers/BaseManager.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 725,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								573,
+								518
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/controllers/CandidatesController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/views/users/profile.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								635,
+								635
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
+							"open_with_edit": true,
+							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/views/users/account.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 727,
 						"regions":
 						{
 						},
@@ -540,7 +823,7 @@
 						{
 							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
 							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -548,127 +831,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/views/users/account.blade.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 718,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								40,
-								40
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/Laravel Blade Highlighter/laravel-blade.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/start/global.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2692,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								974,
-								974
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 714.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "app/controllers/UsersController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 873,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								813,
-								813
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/home/rafael/Downloads/mejorandocurso-master/mejorandophp/clase6/app/controllers/UsersController.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1795,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								869,
-								869
-							]
-						],
-						"settings":
-						{
-							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (SL).tmTheme",
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 51.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -720,6 +882,30 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"candidate",
+				"app/Fide/Entities/Candidate.php"
+			],
+			[
+				"account.bl",
+				"app/views/users/account.blade.php"
+			],
+			[
+				"categoryrepo",
+				"app/Fide/Repositories/CategoryRepo.php"
+			],
+			[
+				"userscon",
+				"app/controllers/UsersController.php"
+			],
+			[
+				"usercontrol",
+				"app/controllers/UsersController.php"
+			],
+			[
+				"accountblade",
+				"app/views/users/account.blade.php"
+			],
 			[
 				"basemana",
 				"app/Fide/Managers/BaseManager.php"
@@ -798,7 +984,7 @@
 		[
 			[
 				"",
-				"~/htdocs/pruebavel/pruebavel.sublime-workspace"
+				"~/htdocs/prueba1/prueba1.sublime-project"
 			]
 		],
 		"width": 356.0

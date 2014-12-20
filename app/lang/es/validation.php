@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 return array(
 
@@ -13,65 +13,49 @@ return array(
     |
     */
 
-    "accepted"         => ":attribute debe ser aceptado.",
-    "active_url"       => ":attribute no es una URL válida.",
-    "after"            => ":attribute debe ser una fecha posterior a :date.",
-    "alpha"            => ":attribute solo debe contener letras.",
-    "alpha_dash"       => ":attribute solo debe contener letras, números y guiones.",
-    "alpha_num"        => ":attribute solo debe contener letras y números.",
-    "array"            => ":attribute debe ser un conjunto.",
-    "before"           => ":attribute debe ser una fecha anterior a :date.",
-    "between"          => array(
-        "numeric" => ":attribute tiene que estar entre :min - :max.",
-        "file"    => ":attribute debe pesar entre :min - :max kilobytes.",
-        "string"  => ":attribute tiene que tener entre :min - :max caracteres.",
-        "array"   => ":attribute tiene que tener entre :min - :max ítems.",
+    "accepted"       => "El campo :attribute debe ser aceptado.",
+    "active_url"     => "El campo :attribute no es una URL válida.",
+    "after"          => "El campo :attribute debe ser una fecha después de :date.",
+    "alpha"          => "El campo :attribute sólo puede contener letras.",
+    "alpha_dash"     => "El campo :attribute sólo puede contener letras, números y guiones.",
+    "alpha_num"      => "El campo :attribute sólo puede contener letras y números.",
+    "before"         => "El campo :attribute debe ser una fecha antes :date.",
+    "between"        => array(
+        "numeric" => "El campo :attribute debe estar entre :min - :max.",
+        "file"    => "El campo :attribute debe estar entre :min - :max kilobytes.",
+        "string"  => "El campo :attribute debe estar entre :min - :max caracteres.",
     ),
-    "boolean"          => "El campo :attribute debe tener un valor verdadero o falso.",
-    "confirmed"        => "La confirmación de :attribute no coincide.",
-    "date"             => ":attribute no es una fecha válida.",
-    "date_format"      => ":attribute no corresponde al formato :format.",
-    "different"        => ":attribute y :other deben ser diferentes.",
-    "digits"           => ":attribute debe tener :digits dígitos.",
-    "digits_between"   => ":attribute debe tener entre :min y :max dígitos.",
-    "email"            => ":attribute no es un correo válido",
-    "exists"           => ":attribute es inválido.",
-    "image"            => ":attribute debe ser una imagen.",
-    "in"               => ":attribute es inválido.",
-    "integer"          => ":attribute debe ser un número entero.",
-    "ip"               => ":attribute debe ser una dirección IP válida.",
-    "max"              => array(
-        "numeric" => ":attribute no debe ser mayor a :max.",
-        "file"    => ":attribute no debe ser mayor que :max kilobytes.",
-        "string"  => ":attribute no debe ser mayor que :max caracteres.",
-        "array"   => ":attribute no debe tener más de :max elementos.",
+    "confirmed"      => "El campo :attribute confirmación no coincide.",
+    "different"      => "El campo :attribute and :other debe ser diferente.",
+    "email"          => "El formato del :attribute  es invalido.",
+    "exists"         => "El campo :attribute seleccionado  is invalid.",
+    "image"          => "El campo :attribute debe ser una imagen.",
+    "in"             => "El campo :attribute seleccionado  is invalid.",
+    "integer"        => "El campo :attribute debe ser un entero.",
+    "ip"             => "El campo :attribute Debe ser una dirección IP válida.",
+    "match"          => "El formato :attribute es invalido.",
+    "max"            => array(
+        "numeric" => "El campo :attribute debe ser menor que :max.",
+        "file"    => "El campo :attribute debe ser menor que :max kilobytes.",
+        "string"  => "El campo :attribute debe ser menor que :max caracteres.",
     ),
-    "mimes"            => ":attribute debe ser un archivo con formato: :values.",
-    "min"              => array(
-        "numeric" => "El tamaño de :attribute debe ser de al menos :min.",
-        "file"    => "El tamaño de :attribute debe ser de al menos :min kilobytes.",
-        "string"  => ":attribute debe contener al menos :min caracteres.",
-        "array"   => ":attribute debe tener al menos :min elementos.",
+    "mimes"          => "El campo :attribute debe ser un archivo de tipo :values.",
+    "min"            => array(
+        "numeric" => "El campo :attribute debe tener al menos :min.",
+        "file"    => "El campo :attribute debe tener al menos :min kilobytes.",
+        "string"  => "El campo :attribute debe tener al menos :min caracteres.",
     ),
-    "not_in"           => ":attribute es inválido.",
-    "numeric"          => ":attribute debe ser numérico.",
-    "regex"            => "El formato de :attribute es inválido.",
-    "required"         => "El campo :attribute es obligatorio.",
-    "required_if"      => "El campo :attribute es obligatorio cuando :other es :value.",
-    "required_with"    => "El campo :attribute es obligatorio cuando :values está presente.",
-    "required_with_all" => "El campo :attribute es obligatorio cuando :values está presente.",
-    "required_without" => "El campo :attribute es obligatorio cuando :values no está presente.",
-    "required_without_all" => "El campo :attribute es obligatorio cuando ninguno de :values estén presentes.",
-    "same"             => ":attribute y :other deben coincidir.",
-    "size"             => array(
-        "numeric" => "El tamaño de :attribute debe ser :size.",
-        "file"    => "El tamaño de :attribute debe ser :size kilobytes.",
-        "string"  => ":attribute debe contener :size caracteres.",
-        "array"   => ":attribute debe contener :size elementos.",
+    "not_in"         => "El campo :attribute seleccionado es invalido.",
+    "numeric"        => "El campo :attribute debe ser un numero.",
+    "required"       => "El campo :attribute es requerido",
+    "same"           => "El campo :attribute y :other debe coincidir.",
+    "size"           => array(
+        "numeric" => "El campo :attribute must be :size.",
+        "file"    => "El campo :attribute must be :size kilobyte.",
+        "string"  => "El campo :attribute must be :size caracteres.",
     ),
-    "timezone"         => "El :attribute debe ser una zona válida.",
-    "unique"           => ":attribute ya ha sido registrado.",
-    "url"              => "El formato :attribute es inválido.",
+    "unique"         => "El campo :attribute ya ha sido tomado.",
+    "url"            => "El formato de :attribute es invalido.",
 
     /*
     |--------------------------------------------------------------------------
@@ -79,33 +63,38 @@ return array(
     |--------------------------------------------------------------------------
     |
     | Here you may specify custom validation messages for attributes using the
-    | convention "attribute.rule" to name the lines. This makes it quick to
-    | specify a specific custom language line for a given attribute rule.
+    | convention "attribute_rule" to name the lines. This helps keep your
+    | custom validation clean and tidy.
+    |
+    | So, say you want to use a custom validation message when validating that
+    | the "email" attribute is unique. Just add "email_unique" to this array
+    | with your custom message. The Validator will handle the rest!
     |
     */
 
-    'custom' => array(
-        'attribute-name' => array(
-            'rule-name' => 'custom-message',
-        ),
-    ),
+    'custom' => array(),
 
     /*
     |--------------------------------------------------------------------------
-    | Custom Validation Attributes
+    | Validation Attributes
     |--------------------------------------------------------------------------
     |
     | The following language lines are used to swap attribute place-holders
-    | with something more reader friendly such as E-Mail Address instead
-    | of "email". This simply helps us make messages a little cleaner.
+    | with something more reader friendly such as "E-Mail Address" instead
+    | of "email". Your users will thank you.
+    |
+    | The Validator class will automatically search this array of lines it
+    | is attempting to replace the :attribute place-holder in messages.
+    | It's pretty slick. We think you'll like it.
     |
     */
 
     'attributes' => array(
-    	'full_name' => 'nombre completo',
-    	'email' => 'correo electronico',
-    	'password' => 'contraseña',
-    	'password_confirmation' => 'repita su contraseña'
+        'full_name' => 'nombre completo',
+        'email'     => 'correo electronico',
+        'password'  => 'clave',
+        'password_confirmation' => 'repita su clave',
+        'category_id' => 'Categoría'
     ),
 
 );

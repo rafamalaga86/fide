@@ -6,7 +6,7 @@
 |--------------------------------------------------------------------------
 |
 | In addition to using Composer, you may use the Laravel class loader to
-| load your controllers and models. This is useful for keeping all of
+| load your controllers and Entities. This is useful for keeping all of
 | your classes in the "global" namespace without Composer updating.
 |
 */
@@ -15,7 +15,7 @@ ClassLoader::addDirectories(array(
 
 	app_path().'/commands',
 	app_path().'/controllers',
-	app_path().'/models',
+	app_path().'/Entities',
 	app_path().'/database/seeds',
 
 ));
@@ -51,7 +51,7 @@ App::error(function(Exception $exception, $code)
 	Log::error($exception);
 });
 
-App::error(function(\Fide\Managers\ValidationException $exception) {
+App::error(function (\Fide\Managers\ValidationException $exception) {
 	return Redirect::back()->withInput()->withErrors($exception->getErrors());
 });
 
@@ -83,3 +83,8 @@ App::down(function()
 */
 
 require app_path().'/filters.php';
+
+function is_admin()
+{
+    return Auth::check() && Auth::user()->type == 'admin';
+}

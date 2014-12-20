@@ -1,9 +1,9 @@
-<?php 
+<?php
 
 namespace Fide\Entities;
 
 class Candidate extends \Eloquent {
-	protected $fillable = [];
+	protected $fillable = ['website_url', 'description', 'job_type', 'category_id', 'available'];
 	protected $perPage = 3;
 
 	public function user(){
@@ -17,6 +17,7 @@ class Candidate extends \Eloquent {
 	}
 
 	public function getJobTypeTitleAttribute(){
+		
 		return \Lang::get('utils.job_types.' . $this->job_type);
 	}
 }

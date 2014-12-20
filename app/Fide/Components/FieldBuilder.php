@@ -105,35 +105,30 @@ class FieldBuilder {
 		return 'fields/default';
 	}
 
-	public function password($name, $attributes = array())
-	{
-		return $this->input('password', $name, null, $attributes);
-	}
-
-	public function select($name, $options, $value = null, $attributes = array()){
-
-		return $this->input('select', $name, $value, $attributes, $options);
-	}
-
 	public function input($type, $name, $value = null, $attributes = array(), $options = array())
 	{
-		
-
 		$this->buildCssClasses($type, $attributes);
 		$label = $this->buildLabel($name);
 		$control = $this->buildControl($type, $name, $value, $attributes, $options);
 		$error = $this->buildError($name);
 		$template = $this->buildTemplate($type);
 
-		return $this->view->make($template, compact('name', 'label', 'control', 'error'));
+		return $this->view->make($template, compact ('name', 'label', 'control', 'error'));
+	}
+
+	public function password($name, $attributes = array())
+	{
+		return $this->input('password', $name, null, $attributes);
+	}
+
+	public function select($name, $options, $value = null, $attributes = array())
+	{
+		return $this->input('select', $name, $value, $attributes, $options);
 	}
 
 	public function __call($method, $params)
 	{
-
 		array_unshift($params, $method);
-
-		return call_user_func_array([$this, 'input'], $params );
-
+		return call_user_func_array([$this, 'input'], $params);
 	}
 }

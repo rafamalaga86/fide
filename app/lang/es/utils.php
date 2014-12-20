@@ -1,9 +1,9 @@
 <?php
 
 return [
-	'job_types' =>[
-		'full' => 'Full time',
-		'partial' => 'Partial time',
-		'freelance' => 'Freelance'
-	]
+    'job_types' => [
+        'full'      => 'Tiempo completo',
+        'partial'   => 'Tiempo parcial',
+        'freelance' => 'Freelance'
+    ]
 ];

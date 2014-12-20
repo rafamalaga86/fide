@@ -3,9 +3,9 @@
 use Fide\Entities\User;
 use Fide\Managers\RegisterManager;
 use Fide\Managers\AccountManager;
+use Fide\Managers\ProfileManager;
 use Fide\Repositories\CandidateRepo;
 use Fide\Repositories\CategoryRepo;
-
 
 
 class UsersController extends BaseController{
@@ -33,17 +33,15 @@ class UsersController extends BaseController{
 		return Redirect::route('home');
 	}
 
-
 	public function account(){
+
 		$user = Auth::user();
 		return View::make('users/account', compact('user'));
 	}
 
-
 	public function updateAccount(){
 
 		$user = Auth::user();
-
 		$manager = new AccountManager($user, Input::all());
 
 		$manager->save();
@@ -51,10 +49,10 @@ class UsersController extends BaseController{
 		return Redirect::route('home');
 	}
 
-
 	public function profile(){
+
 		$user = Auth::user();
-		$candidate = $user->candidate;
+		$candidate = $user->getCandidate();
 
 		$categories = $this->categoryRepo->getList();
 		$job_types = \Lang::get('utils.job_types');
@@ -62,11 +60,10 @@ class UsersController extends BaseController{
 		return View::make('users/profile', compact('user', 'candidate', 'categories', 'job_types'));
 	}
 
-
 	public function updateProfile(){
 
 		$user = Auth::user();
-		$candidate = $user->candidate;
+		$candidate = $user->getCandidate();
 		$manager = new ProfileManager($candidate, Input::all());
 
 		$manager->save();
