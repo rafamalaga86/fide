@@ -15,4 +15,11 @@ class BaseController extends Controller {
 		}
 	}
 
+	public function notFoundUnless($value){
+
+		if ( ! $value ){
+			App::abort(404);
+		}
+	}
+
 }

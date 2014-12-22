@@ -7,7 +7,11 @@
     <div class="container">
         <h1>Fide</h1>
         <p>The best platform to find web-related professionals.</p>
-        <p><a  href="{{ route('sign_up') }}" class="btn btn-primary btn-lg" role="button">Sube tu CV &raquo;</a></p>
+        <p>
+            @if(Auth::guest())
+                <a  href="{{ route('sign_up') }}" class="btn btn-primary btn-lg" role="button">Sube tu CV &raquo;</a>
+            @endif
+        </p>
     </div>
 </div>
 
